@@ -1,0 +1,6 @@
+litellm==0.12.5
+# have build custom pyautogen where we have added suport for "stream_output_func" support under oai/client.py
+pyautogen==0.2.2
+git+https://github.com/huggingface/transformers.git
+sounddevice
+openai-whisper
