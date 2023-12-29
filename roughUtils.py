@@ -158,12 +158,3 @@ def generate_audio():
 
     # Stop and close the stream
     stream.stop()
-
-def speechToText():
-    import whisper
-    model = whisper.load_model("tiny")
-    result = model.transcribe("WisperAudio.webm")
-    print(result["text"])
-
-
-speechToText()

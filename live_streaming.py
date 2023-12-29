@@ -74,7 +74,7 @@ class LiveStream:
         self.AUDIO_PROCESSOR = AutoProcessor.from_pretrained("suno/bark")
         self.VOICE_PRESENT = "v2/en_speaker_6"
 
-        self.AUDIO_STREAM = sd.OutputStream(channels=1, samplerate=24000)
+        self.AUDIO_STREAM = sd.OutputStream(channels=1, samplerate=44100)
 
         # Start the stream
         self.AUDIO_STREAM.start()

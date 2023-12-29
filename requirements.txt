@@ -4,3 +4,4 @@ pyautogen==0.2.2
 git+https://github.com/huggingface/transformers.git
 sounddevice
 openai-whisper
+git+https://github.com/ali-vilab/dreamtalk.git
